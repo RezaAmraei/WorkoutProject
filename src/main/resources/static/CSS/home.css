@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+*{
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #c0c0c0;
+	
+}
+/* 								HEADER AREA FOR CSS 									*/	
+.fixlink{
+	color: navajowhite;
+  text-decoration: inherit;
+}
+.flex{
+	display: flex;
+}
+#header{
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#leftheader{
+	gap: 30px;
+}
+#maincontent{
+	display: flex;
+	padding: 200px 400px 0px 400px;
+	gap: 100px;
+}
+.col{
+	flex:1;
+	background-color: white;
+	height: 500px;
+	background-color:black;
+	padding: 50px
+}
+.text{
+	text-align: center;
+	font-size: 40px;
+	color: black;
+	background-color: grey;
+	padding: 20px;
+}
+#viewworkoutcol{
+	
+}
+#logworkoutcol{
+	
+}
+#logeatingcol{
+	
+}

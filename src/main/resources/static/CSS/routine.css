@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+*{
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #c0c0c0;
+	
+}
+.fixlink{
+	color: navajowhite;
+  text-decoration: inherit;
+}
+.flex{
+	display: flex;
+}
+#header{
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#leftheader{
+	gap: 30px;
+}
+#maincontent{
+	display: flex;
+	padding: 200px 400px 0px 400px;
+	gap: 100px;
+}
+.col{
+	flex:1;
+	background-color: white;
+	height: 500px;
+	width: 500px;
+	background-color:black;
+	padding: 50px;
+}
+.colcontainer{
+	text-align: center;
+}
+.colcontainer h1{
+	font-size: 70px;
+}
+
+#beginner{
+	background-image: url('https://cdn.thinglink.me/api/avatar/874910709832482818/180/thumbnail');
+	background-size: cover;
+	
+}
+
+#intermediate{
+	background-image: url('https://pbs.twimg.com/media/DGeNL4-VYAA1xAb.jpg');
+	background-size: cover;
+}
+
+#advanced{
+	background-image: url('https://gregorytaper.files.wordpress.com/2019/09/photograph-from-the-television-program-sponegbob-squarepants.jpg?w=700');
+	background-size: cover;
+}

@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: grey;
+}
+.fixlink{
+	color: navajowhite;
+  text-decoration: inherit;
+}
+.flex{
+	display: flex;
+}
+#header{
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#leftheader{
+	gap: 30px;
+}
+#maincontent{
+	padding: 100px 500px 0px 600px;
+}
+.square{
+	height: 300px;
+	width: 300px;
+	background-color: navajowhite;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row{
+	display:flex;
+	gap: 300px
+}
+.container{
+	background-color: navajowhite;
+	padding: 20px;
+}
+#chest{
+	background-image: url('https://i.imgur.com/MxvEHnD.jpeg');
+	background-size: cover;
+}
+#legs{
+	background-image: url('https://i.imgur.com/DyZqRWk.jpeg');
+	background-size: cover;
+}
+#back{
+	background-image: url('https://i.imgur.com/Bc0MU.jpeg');
+	background-size: cover;
+}
+#biceps{
+	background-image: url('https://i.imgur.com/DtuEFk0.jpeg');
+	background-size: cover;
+}
+#triceps{
+	background-image: url('https://i.imgur.com/qiyjlAE.jpeg');
+	background-size: cover;
+}
+#shoulders{
+	background-image: url('https://i.imgur.com/z8eCzQP.jpeg');
+	background-size: cover;
+}
+#cardio{
+	background-image: url('https://i.imgur.com/6LwRAP3.png');
+	background-size: cover;
+}
+#core{
+	background-image: url('https://i.imgur.com/OaZCCuj.jpeg');
+	background-size: cover;
+}
+#athome{
+	background-image: url('https://i.imgur.com/HKDhZms.jpeg');
+	background-size: cover;
+}
